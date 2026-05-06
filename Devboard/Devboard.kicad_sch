@@ -4837,12 +4837,6 @@
 		(uuid "0acaf22a-0cb7-4233-b031-bc99b9f21df0")
 	)
 	(junction
-		(at 209.55 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b79b790-4281-470f-8517-7cf2094fea6e")
-	)
-	(junction
 		(at 73.66 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4871,6 +4865,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38215033-c415-44ce-b08f-7537ad57c682")
+	)
+	(junction
+		(at 332.74 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4134b291-f712-4986-93b2-724e53854953")
 	)
 	(junction
 		(at 341.63 100.33)
@@ -4945,6 +4945,12 @@
 		(uuid "8184034d-9cfc-448c-a26d-446c3200f334")
 	)
 	(junction
+		(at 335.28 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84336ef7-3630-4d1c-8144-61962af669d9")
+	)
+	(junction
 		(at 363.22 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5011,6 +5017,12 @@
 		(uuid "ca404a59-95df-4351-a1bf-faf9aef1af57")
 	)
 	(junction
+		(at 209.55 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cffb8b06-a201-4efc-ad2d-09b8f25834bb")
+	)
+	(junction
 		(at 271.78 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5023,12 +5035,6 @@
 		(uuid "dda67991-f7a2-48f3-a6e4-55cc88855444")
 	)
 	(junction
-		(at 46.99 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7e2afc3-c36b-46a2-95dd-213a72d529c1")
-	)
-	(junction
 		(at 46.99 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5039,6 +5045,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f481222d-4c59-45a1-b202-aa992baf8433")
+	)
+	(no_connect
+		(at 297.18 144.78)
+		(uuid "5bf78776-4012-46b6-b99c-b0a8abda9d39")
+	)
+	(no_connect
+		(at 289.56 157.48)
+		(uuid "ad55fcec-2de8-4227-a215-4a32c5874876")
 	)
 	(wire
 		(pts
@@ -5149,6 +5163,16 @@
 			(type default)
 		)
 		(uuid "16ff74a8-3381-42e5-ab60-927bd20d29e9")
+	)
+	(wire
+		(pts
+			(xy 332.74 124.46) (xy 335.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa595f3-a7dc-4a20-9ae6-4e67b6732686")
 	)
 	(wire
 		(pts
@@ -5622,23 +5646,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 134.62) (xy 46.99 134.62)
+			(xy 45.72 134.62) (xy 50.8 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "980f50d6-8634-470d-8532-350dce63c0fb")
-	)
-	(wire
-		(pts
-			(xy 49.53 134.62) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e5fc14-6bbf-4ca1-a3fe-fe0cdbc90819")
 	)
 	(wire
 		(pts
@@ -5712,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 134.62) (xy 46.99 144.78)
+			(xy 46.99 132.08) (xy 46.99 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6062,6 +6076,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 261.62) (xy 209.55 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de464fe0-43b7-4b3b-a5cb-a0be4147567d")
+	)
+	(wire
+		(pts
 			(xy 45.72 137.16) (xy 50.8 137.16)
 		)
 		(stroke
@@ -6169,16 +6193,6 @@
 			(type default)
 		)
 		(uuid "f5888e87-712e-4414-911e-cb4319a241dc")
-	)
-	(wire
-		(pts
-			(xy 46.99 132.08) (xy 46.99 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ae5aa1-6429-4d5f-a30d-d61352bc75fd")
 	)
 	(wire
 		(pts
@@ -7328,6 +7342,30 @@
 			)
 		)
 	)
+	(global_label "GPIO25"
+		(shape input)
+		(at 297.18 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "930bda0e-3ccf-46c4-9113-1f705ccfe12e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.3005 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "QSPI_SS"
 		(shape output)
 		(at 347.98 165.1 0)
@@ -7664,30 +7702,6 @@
 			)
 		)
 	)
-	(global_label "GPIO5"
-		(shape input)
-		(at 297.18 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5725424-8b0a-4391-9f83-cc7b698f1e1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.51 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SWD"
 		(shape input)
 		(at 347.98 205.74 0)
@@ -7709,30 +7723,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO5"
-		(shape input)
-		(at 45.72 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6515582-6b3c-4e71-ac59-f44270f8e0ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.05 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7989,6 +7979,30 @@
 		(uuid "db309e48-5fd0-4706-997b-bacc43f64d96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 287.3005 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO25"
+		(shape input)
+		(at 72.39 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbc720a9-e4b2-463a-95b7-4c23ecc27339")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5105 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,7 +10052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 254 0)
+		(at 209.55 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10048,7 +10062,7 @@
 		(dnp no)
 		(uuid "70c90232-bb79-4cca-829e-2d9eb5ac29d9")
 		(property "Reference" "#PWR014"
-			(at 209.55 260.35 0)
+			(at 209.55 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10059,7 +10073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.502 256.032 0)
+			(at 206.502 263.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10069,7 +10083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 254 0)
+			(at 209.55 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,7 +10094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 254 0)
+			(at 209.55 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 254 0)
+			(at 209.55 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
