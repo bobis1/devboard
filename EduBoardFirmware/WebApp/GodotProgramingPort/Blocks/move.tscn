@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dxmiqhnn5jv61"]
+
+[ext_resource type="Script" uid="uid://cvxfj5tu1fpd0" path="res://Blocks/Scripts/move.gd" id="1_fnxq4"]
+
+[node name="Move" type="Control" unique_id=514729239]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_fnxq4")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=346340799]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

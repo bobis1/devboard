@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://cmg86eaqq5lgg"]
+
+[ext_resource type="Script" uid="uid://ceuinr7ovbo60" path="res://sprite_editor.gd" id="1_upv1c"]
+
+[node name="SpriteEditor" type="Node2D" unique_id=317074602 node_paths=PackedStringArray("canvas")]
+script = ExtResource("1_upv1c")
+canvas = NodePath("ColorRect")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1536955241]
+offset_left = 164.0
+offset_top = 5.0
+offset_right = 804.0
+offset_bottom = 645.0
+
+[node name="Color Select" type="GridContainer" parent="." unique_id=934203744]
+offset_left = 165.0
+offset_top = -141.0
+offset_right = 548.0
+offset_bottom = -5.0
+columns = 4
+
+[node name="Black" type="Button" parent="Color Select" unique_id=28124170]
+layout_mode = 2
+text = "Transparent"
+
+[node name="Red" type="Button" parent="Color Select" unique_id=1972713575]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.77489054, 0, 0, 1)
+text = "Red"
+
+[node name="Green" type="Button" parent="Color Select" unique_id=620231470]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+text = "Green"
+
+[node name="Blue" type="Button" parent="Color Select" unique_id=1532119625]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 1, 1)
+text = "Blue"
+
+[node name="Purple" type="Button" parent="Color Select" unique_id=368470405]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.5882353, 0, 0.5882353, 1)
+text = "Purple
+"
+
+[node name="Yellow" type="Button" parent="Color Select" unique_id=472143195]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9019608, 0.7882353, 0.5372549, 1)
+text = "Yellow"
+
+[node name="Brown" type="Button" parent="Color Select" unique_id=2033233621]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.627451, 0.3137255, 0.23529412, 1)
+text = "Brown"
+
+[node name="Peach" type="Button" parent="Color Select" unique_id=880629538]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.8, 0.6666667, 1)
+text = "Peach"
+
+[node name="Lavender" type="Button" parent="Color Select" unique_id=69684651]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.5137255, 0.4627451, 0.6117647, 1)
+text = "Lavender"
+
+[node name="Light Gray" type="Button" parent="Color Select" unique_id=2062072871]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7607843, 0.7647059, 0.78039217, 1)
+text = "Light Gray"
+
+[node name="Dark Gray" type="Button" parent="Color Select" unique_id=1723867980]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.40784314, 0.4117647, 0.42745098, 1)
+text = "Dark Gray"
+
+[node name="Dark Blue" type="Button" parent="Color Select" unique_id=1373471253]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.11372549, 0.16862746, 0.3254902, 1)
+text = "Dark Blue"
+
+[node name="Dark Purple" type="Button" parent="Color Select" unique_id=859298970]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.49411765, 0.14509805, 0.3254902, 1)
+text = "Dark Purple"
+
+[node name="Lime Green" type="Button" parent="Color Select" unique_id=205800552]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.65882355, 0.90588236, 0.18039216, 1)
+text = "Lime Green"
+
+[node name="Mauve" type="Button" parent="Color Select" unique_id=588692122]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.45882353, 0.27450982, 0.39607844, 1)
+text = "Mauve"
+
+[node name="Teal" type="Button" parent="Color Select" unique_id=1751565138]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.07058824, 0.3254902, 0.34901962, 1)
+text = "Teal"
+
+[connection signal="pressed" from="Color Select/Black" to="." method="_on_black_pressed"]
+[connection signal="pressed" from="Color Select/Red" to="." method="_on_red_pressed"]
+[connection signal="pressed" from="Color Select/Green" to="." method="_on_green_pressed"]
+[connection signal="pressed" from="Color Select/Blue" to="." method="_on_blue_pressed"]
+[connection signal="pressed" from="Color Select/Purple" to="." method="_on_purple_pressed"]
+[connection signal="pressed" from="Color Select/Yellow" to="." method="_on_yellow_pressed"]
+[connection signal="pressed" from="Color Select/Brown" to="." method="_on_brown_pressed"]
+[connection signal="pressed" from="Color Select/Peach" to="." method="_on_peach_pressed"]
+[connection signal="pressed" from="Color Select/Lavender" to="." method="_on_lavender_pressed"]
+[connection signal="pressed" from="Color Select/Light Gray" to="." method="_on_light_gray_pressed"]
+[connection signal="pressed" from="Color Select/Dark Gray" to="." method="_on_dark_gray_pressed"]
+[connection signal="pressed" from="Color Select/Dark Blue" to="." method="_on_dark_blue_pressed"]
+[connection signal="pressed" from="Color Select/Dark Purple" to="." method="_on_dark_purple_pressed"]
+[connection signal="pressed" from="Color Select/Lime Green" to="." method="_on_lime_green_pressed"]
+[connection signal="pressed" from="Color Select/Mauve" to="." method="_on_mauve_pressed"]
+[connection signal="pressed" from="Color Select/Teal" to="." method="_on_teal_pressed"]
