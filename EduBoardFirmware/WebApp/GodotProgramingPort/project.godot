@@ -11,12 +11,26 @@ config_version=5
 [application]
 
 config/name="GodotProgramingPort"
+run/main_scene="uid://bk3els8ck5lwi"
 config/features=PackedStringArray("4.6", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Globals="*uid://b3n4ptnw0clt6"
+
+[display]
+
+window/size/viewport_height=1152
 
 [dotnet]
 
 project/assembly_name="GodotProgramingPort"
+
+[global_group]
+
+InnerSnapZone=""
+OuterSnapZone=""
 
 [physics]
 

@@ -14,5 +14,5 @@ func _process(delta: float) -> void:
 
 
 func _on_sprite_editor_pressed() -> void:
-	get_tree().change_scene("res://SpriteEditor.tscn")
+	get_tree().change_scene_to_file("res://Editor.tscn")
 	pass

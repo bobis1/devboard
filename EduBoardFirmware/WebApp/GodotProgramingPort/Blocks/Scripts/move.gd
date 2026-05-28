@@ -1,11 +1,8 @@
 extends Control
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
+var mobile = false
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func move(sprite: Node2D, X: float, Y: float) -> void:
+	sprite.transform2D(X, Y)
 	pass

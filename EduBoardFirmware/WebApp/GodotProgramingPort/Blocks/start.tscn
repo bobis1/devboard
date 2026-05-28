@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dal6mswhqbsod"]
+
+[ext_resource type="Script" uid="uid://bormyr3sixu44" path="res://Blocks/start.gd" id="1_uwecf"]
+[ext_resource type="Texture2D" uid="uid://b6rfr7slsdyp3" path="res://Blocks/BlockImages/Start.png" id="2_uwecf"]
+[ext_resource type="Script" uid="uid://c8mf8830u3y4b" path="res://Blocks/snap_zone_inner.gd" id="3_xdkvy"]
+
+[node name="TextureRect" type="TextureRect" unique_id=1045938698]
+custom_minimum_size = Vector2(128, 64)
+offset_left = -1.0
+offset_top = 3.0
+offset_right = 668.0
+offset_bottom = 207.0
+texture = ExtResource("2_uwecf")
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("1_uwecf")
+
+[node name="SnapZoneInner" type="Node2D" parent="." unique_id=783987164 groups=["InnerSnapZone"]]
+position = Vector2(133, 148)
+script = ExtResource("3_xdkvy")
+
+[node name="SnapZoneOuter" type="Node2D" parent="." unique_id=606957910 groups=["OuterSnapZone"]]
+position = Vector2(136, 3)

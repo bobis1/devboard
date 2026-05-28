@@ -1,13 +1,46 @@
 [gd_scene format=3 uid="uid://dxmiqhnn5jv61"]
 
 [ext_resource type="Script" uid="uid://cvxfj5tu1fpd0" path="res://Blocks/Scripts/move.gd" id="1_fnxq4"]
+[ext_resource type="Texture2D" uid="uid://b2i15on3vaq3e" path="res://Blocks/BlockImages/MoveBlock.png" id="2_rnbvc"]
+[ext_resource type="Script" uid="uid://c8mf8830u3y4b" path="res://Blocks/snap_zone_inner.gd" id="3_fkbnc"]
 
-[node name="Move" type="Control" unique_id=514729239]
-layout_mode = 3
-anchors_preset = 0
+[node name="TextureRect" type="TextureRect" unique_id=346340799]
+custom_minimum_size = Vector2(128, 64)
+offset_top = 3.0
+offset_right = 669.0
+offset_bottom = 207.0
+texture = ExtResource("2_rnbvc")
+expand_mode = 1
+stretch_mode = 5
 script = ExtResource("1_fnxq4")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=346340799]
+[node name="Sprite" type="LineEdit" parent="." unique_id=1952460898]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 272.0
+offset_top = 95.0
+offset_right = 340.5
+offset_bottom = 126.0
+
+[node name="X" type="LineEdit" parent="." unique_id=401481081]
+layout_mode = 0
+offset_left = 407.0
+offset_top = 95.0
+offset_right = 475.5
+offset_bottom = 126.0
+
+[node name="Y" type="LineEdit" parent="." unique_id=1826738888]
+layout_mode = 0
+offset_left = 540.0
+offset_top = 94.0
+offset_right = 608.5
+offset_bottom = 125.0
+
+[node name="SnapZoneInner" type="Node2D" parent="." unique_id=783987164 groups=["InnerSnapZone"]]
+position = Vector2(133, 148)
+script = ExtResource("3_fkbnc")
+
+[node name="SnapZoneOuter" type="Node2D" parent="." unique_id=606957910 groups=["OuterSnapZone"]]
+position = Vector2(136, 3)
+
+[connection signal="mouse_entered" from="." to="SnapZoneInner" method="_on_texture_rect_mouse_entered"]
+[connection signal="mouse_exited" from="." to="SnapZoneInner" method="_on_texture_rect_mouse_exited"]

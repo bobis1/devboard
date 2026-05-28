@@ -3,37 +3,43 @@
 [ext_resource type="Script" uid="uid://vgqkn13vijoc" path="res://workspaceManager.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://ctynxs1x5lxk0" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://bw15c7lhjt21d" path="res://SpriteSystem.cs" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://bkfa8qmuk36lv" path="res://toolbox.gd" id="2_1bvp3"]
 
 [node name="Node2D" type="Node2D" unique_id=1000945125]
 script = ExtResource("1_h2yge")
 
-[node name="Control" type="Control" parent="." unique_id=890053993]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Control" unique_id=1937556211]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/HBoxContainer" unique_id=1268803971]
-layout_mode = 2
-
-[node name="SpriteEditor" type="Button" parent="Control/HBoxContainer/VBoxContainer" unique_id=914408442]
-layout_mode = 2
-text = "Sprite Editor"
-
-[node name="Expand" type="Button" parent="Control/HBoxContainer/VBoxContainer" unique_id=1340511263]
-layout_mode = 2
-text = "->"
-
-[node name="TextureRect" type="TextureRect" parent="Control/HBoxContainer" unique_id=1277350450]
-layout_mode = 2
-texture = ExtResource("1_ig7tw")
-
 [node name="Sprite" type="Node" parent="." unique_id=1117533938]
 script = ExtResource("2_0xm2m")
 
-[connection signal="pressed" from="Control/HBoxContainer/VBoxContainer/SpriteEditor" to="." method="_on_sprite_editor_pressed"]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=618935165]
+position = Vector2(543, 519)
+
+[node name="Hbox" type="HBoxContainer" parent="." unique_id=1875795952]
+offset_left = -2.0
+offset_right = 998.0
+offset_bottom = 600.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Hbox" unique_id=1268803971]
+layout_mode = 2
+
+[node name="SpriteEditor" type="Button" parent="Hbox/VBoxContainer" unique_id=914408442]
+layout_mode = 2
+text = "Sprite Editor"
+
+[node name="Expand" type="Button" parent="Hbox/VBoxContainer" unique_id=1340511263]
+layout_mode = 2
+text = "<-"
+
+[node name="Toolbox" type="VBoxContainer" parent="Hbox/VBoxContainer" unique_id=52920684]
+layout_mode = 2
+size_flags_horizontal = 0
+script = ExtResource("2_1bvp3")
+
+[node name="WorkArea" type="TextureRect" parent="Hbox" unique_id=1277350450]
+self_modulate = Color(0.06469653, 0.06469653, 0.06469653, 1)
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("1_ig7tw")
+
+[connection signal="pressed" from="Hbox/VBoxContainer/SpriteEditor" to="." method="_on_sprite_editor_pressed"]
+[connection signal="pressed" from="Hbox/VBoxContainer/Expand" to="Hbox/VBoxContainer/Toolbox" method="_on_expand_pressed"]
