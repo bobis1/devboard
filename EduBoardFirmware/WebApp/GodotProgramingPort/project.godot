@@ -27,6 +27,10 @@ window/size/viewport_height=1152
 
 project/assembly_name="GodotProgramingPort"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
 [global_group]
 
 InnerSnapZone=""
