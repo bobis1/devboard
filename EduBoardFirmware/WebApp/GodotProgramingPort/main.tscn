@@ -1,12 +1,10 @@
 [gd_scene format=3 uid="uid://bk3els8ck5lwi"]
 
-[ext_resource type="Script" uid="uid://vgqkn13vijoc" path="res://workspaceManager.gd" id="1_h2yge"]
-[ext_resource type="Texture2D" uid="uid://ctynxs1x5lxk0" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://bw15c7lhjt21d" path="res://SpriteSystem.cs" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bkfa8qmuk36lv" path="res://toolbox.gd" id="2_1bvp3"]
+[ext_resource type="Script" uid="uid://rpn7ej41lfqa" path="res://Scripts/WorkSpaceManager.gd" id="3_h2yge"]
 
 [node name="Node2D" type="Node2D" unique_id=1000945125]
-script = ExtResource("1_h2yge")
 
 [node name="Sprite" type="Node" parent="." unique_id=1117533938]
 script = ExtResource("2_0xm2m")
@@ -14,32 +12,31 @@ script = ExtResource("2_0xm2m")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=618935165]
 position = Vector2(543, 519)
 
-[node name="Hbox" type="HBoxContainer" parent="." unique_id=1875795952]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1268803971]
 offset_left = -2.0
-offset_right = 998.0
+offset_right = 103.0
 offset_bottom = 600.0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Hbox" unique_id=1268803971]
-layout_mode = 2
-
-[node name="SpriteEditor" type="Button" parent="Hbox/VBoxContainer" unique_id=914408442]
+[node name="SpriteEditor" type="Button" parent="VBoxContainer" unique_id=914408442]
 layout_mode = 2
 text = "Sprite Editor"
 
-[node name="Expand" type="Button" parent="Hbox/VBoxContainer" unique_id=1340511263]
+[node name="Expand" type="Button" parent="VBoxContainer" unique_id=1340511263]
 layout_mode = 2
 text = "<-"
 
-[node name="Toolbox" type="VBoxContainer" parent="Hbox/VBoxContainer" unique_id=52920684]
+[node name="Toolbox" type="VBoxContainer" parent="VBoxContainer" unique_id=52920684]
 layout_mode = 2
 size_flags_horizontal = 0
 script = ExtResource("2_1bvp3")
 
-[node name="WorkArea" type="TextureRect" parent="Hbox" unique_id=1277350450]
-self_modulate = Color(0.06469653, 0.06469653, 0.06469653, 1)
-layout_mode = 2
-size_flags_horizontal = 3
-texture = ExtResource("1_ig7tw")
+[node name="Workspace" type="ColorRect" parent="." unique_id=1332926174]
+offset_left = 119.0
+offset_right = 159.0
+offset_bottom = 40.0
+scale = Vector2(25, 25)
+color = Color(0.012645884, 0.012645883, 0.012645883, 1)
+script = ExtResource("3_h2yge")
 
-[connection signal="pressed" from="Hbox/VBoxContainer/SpriteEditor" to="." method="_on_sprite_editor_pressed"]
-[connection signal="pressed" from="Hbox/VBoxContainer/Expand" to="Hbox/VBoxContainer/Toolbox" method="_on_expand_pressed"]
+[connection signal="pressed" from="VBoxContainer/SpriteEditor" to="." method="_on_sprite_editor_pressed"]
+[connection signal="pressed" from="VBoxContainer/Expand" to="VBoxContainer/Toolbox" method="_on_expand_pressed"]
