@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://b2i15on3vaq3e" path="res://Blocks/BlockImages/MoveBlock.png" id="2_rnbvc"]
 
 [node name="TextureRect" type="TextureRect" unique_id=575496394]
+offset_right = 669.0
+offset_bottom = 204.0
 texture = ExtResource("2_rnbvc")
 script = ExtResource("2_fkbnc")
 

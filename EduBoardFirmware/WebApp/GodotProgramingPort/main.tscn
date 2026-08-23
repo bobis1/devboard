@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bw15c7lhjt21d" path="res://SpriteSystem.cs" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bkfa8qmuk36lv" path="res://toolbox.gd" id="2_1bvp3"]
-[ext_resource type="Script" uid="uid://rpn7ej41lfqa" path="res://Scripts/WorkSpaceManager.gd" id="3_h2yge"]
+[ext_resource type="Script" uid="uid://430utusfyt4y" path="res://workspace.gd" id="3_h2yge"]
 
 [node name="Node2D" type="Node2D" unique_id=1000945125]
 
@@ -31,9 +31,11 @@ size_flags_horizontal = 0
 script = ExtResource("2_1bvp3")
 
 [node name="Workspace" type="ColorRect" parent="." unique_id=1332926174]
-offset_left = 119.0
-offset_right = 159.0
-offset_bottom = 40.0
+z_index = -3
+offset_left = 238.0
+offset_top = 20.0
+offset_right = 278.0
+offset_bottom = 60.0
 scale = Vector2(25, 25)
 color = Color(0.012645884, 0.012645883, 0.012645883, 1)
 script = ExtResource("3_h2yge")
