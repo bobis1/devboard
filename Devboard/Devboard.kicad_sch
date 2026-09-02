@@ -5220,6 +5220,16 @@
 		)
 		(uuid "16c34eac-620f-42ee-b646-d030d62eb731")
 	)
+	(text "Flash memory"
+		(exclude_from_sim no)
+		(at 346.964 76.454 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1e96099f-c0c6-4fc7-902f-b19e3c62a23f")
+	)
 	(text "USB C"
 		(exclude_from_sim no)
 		(at 31.496 89.408 0)
@@ -5232,7 +5242,7 @@
 	)
 	(text "RP2040 and Decoupling Caps"
 		(exclude_from_sim no)
-		(at 343.662 76.454 0)
+		(at 342.9 84.328 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5672,16 +5682,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 267.97) (xy 118.11 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d5c24db-e16f-4ce4-bd43-1805a61f7ff8")
-	)
-	(wire
-		(pts
 			(xy 110.49 259.08) (xy 101.6 259.08)
 		)
 		(stroke
@@ -5729,16 +5729,6 @@
 			(type default)
 		)
 		(uuid "1aa595f3-a7dc-4a20-9ae6-4e67b6732686")
-	)
-	(wire
-		(pts
-			(xy 114.3 260.35) (xy 118.11 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df238a8-1637-4318-a4cf-daf8d2a8753c")
 	)
 	(wire
 		(pts
@@ -5822,16 +5812,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 267.97) (xy 118.11 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2746f54b-5f69-4bbd-a499-be603293fd93")
-	)
-	(wire
-		(pts
 			(xy 77.47 35.56) (xy 80.01 35.56)
 		)
 		(stroke
@@ -5879,16 +5859,6 @@
 			(type default)
 		)
 		(uuid "2dfccaf5-6a32-48d6-8962-c3e18656caf5")
-	)
-	(wire
-		(pts
-			(xy 118.11 269.24) (xy 120.65 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7347bd-a044-47ec-a8c7-4b059805b9e5")
 	)
 	(wire
 		(pts
@@ -6042,16 +6012,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 259.08) (xy 120.65 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c0f29b-3970-4825-8455-2642eaca13b4")
-	)
-	(wire
-		(pts
 			(xy 73.66 157.48) (xy 81.28 157.48)
 		)
 		(stroke
@@ -6172,6 +6132,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 259.08) (xy 120.65 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bd24a6-62f9-4661-8527-1a426d3ae302")
+	)
+	(wire
+		(pts
 			(xy 140.97 248.92) (xy 140.97 256.54)
 		)
 		(stroke
@@ -6199,6 +6169,16 @@
 			(type default)
 		)
 		(uuid "6d12af02-36fe-4318-bc0a-07eb4c9e38d7")
+	)
+	(wire
+		(pts
+			(xy 114.3 267.97) (xy 114.3 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707e2245-f468-4083-b579-439147c7cdf7")
 	)
 	(wire
 		(pts
@@ -6249,6 +6229,16 @@
 			(type default)
 		)
 		(uuid "791ab893-ff5b-4ae4-8037-92392516a6cd")
+	)
+	(wire
+		(pts
+			(xy 114.3 269.24) (xy 120.65 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b901175-f845-4566-8f0a-f05ad1e1dd88")
 	)
 	(wire
 		(pts
@@ -6802,6 +6792,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 260.35) (xy 114.3 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65459cb-a6b6-4269-b155-7cbdd38f83ab")
+	)
+	(wire
+		(pts
 			(xy 295.91 92.71) (xy 306.07 92.71)
 		)
 		(stroke
@@ -6919,16 +6919,6 @@
 			(type default)
 		)
 		(uuid "e3d47f79-1d77-43b5-8f3c-7a56243c0f76")
-	)
-	(wire
-		(pts
-			(xy 118.11 260.35) (xy 118.11 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6cfc573-7faa-4611-aa26-02f47eb0fe76")
 	)
 	(wire
 		(pts
@@ -9464,7 +9454,7 @@
 		(dnp no)
 		(uuid "14461194-23b1-401a-857f-79d658967c6a")
 		(property "Reference" "R3"
-			(at 355.092 152.146 90)
+			(at 356.108 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9473,7 +9463,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "27Ω"
 			(at 351.536 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9937,7 +9927,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1KΩ"
 			(at 346.71 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,8 +10640,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 63.246 49.784 90)
+		(property "Value" "5.1KΩ"
+			(at 61.722 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12509,8 +12499,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1lK"
-			(at 63.5 41.656 90)
+		(property "Value" "5.1KΩ"
+			(at 62.484 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13471,7 +13461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10KΩ"
 			(at 355.092 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,7 +13692,7 @@
 		(dnp no)
 		(uuid "d0bfb070-a342-4ea2-b5df-a07ce5ee67ed")
 		(property "Reference" "R4"
-			(at 354.33 160.02 90)
+			(at 355.6 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13711,7 +13701,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "27Ω"
 			(at 351.282 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)

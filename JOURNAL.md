@@ -153,11 +153,26 @@ This is what the first iteration looked like. In this one I simply forgot to mak
 ![Screenshot 2026-05-27 at 9.49.08 PM.png](JournalPictures/Journal121.png)
 I think that I messed up the display for the first one somehow. I really don't know how much time this is going to take. These concepts lowk should feel easy to remember since the other Godot projects that I worked on. The next things that I need to do are I need to: ~~Fix the first constructor's display(something to do with the text box)~~. Fix the drag detection (should be pretty simple, tbh). In addition, I need to work on the snapping logic. The thing with it is that I just got the logic off of my tower plinko prototype thing. The main concern is that I don't think that everything translated properly.(Yea it doesn't work) I think that there is an issue with the way I reimplemented the code from towerplinko.
 
-**Total time spent: PLACEHOLDER**
+**Total time spent: 0.0**
 
 
 # August 22: Getting the drag and drop logic working.
 
 It has been a while, In this devlog I tried to reform the drag and drop logic. I found out that there is a way to do this with built in stuff from godot. Yea, this isn't the greatest. It took a embarringly long to get used to what I did earlier and to do this. The next thing I need to do is I need to make it so that the block dragging works like scratch. I also need to make the UI actually look good. ![JournalAug22](JournalPictures/JournalAug22.png). This is what it looks like right now. I also tried to use opencode to reformat the journal.md that was exported from fallout a long time ago.
 
-**Total tiem spend: 3:12**
+**Total time spent: 3:12**
+
+# September 1: BOM and wrapping up the pcb
+
+I really think that I should be more focused on the BOM and finishing up the PCB. I think I will work on the software parts after(I am still not super sure if I can even really do it since it is very heavy in terms of software). Besides finishing up the BOM, I got some advice in #electronics and found that trying to power the RP2040 with a battery exceeds the maximum amount of voltage you are supposed to use to power the RP2040. I decided to use the TPS63000DRCR Buck-Boost converter to solve this. 
+![TPS63000DRCRScreenshot](JournalPictures/Screenshot%202026-09-01%20at%208.40.26 PM.png)
+This is what it looks like on the pcb at the moment. I also got some work done on the BOM, There is not really anything I have to say about it. The main thing I still need to do from it is I need to check some of the footprints and I need to figure out how much it will cost for a partial PCBA since I cannot properly do surface mount sodering. ![Spreadsheets](JournalPictures/Spreadsheet.png). Is it weird that I am somewhat proud of how much more organized it is compared to my last hardware projects??? I also need check the footprints. I also did some searching for parts. The next thing I will do is I will be trying to is to try to get 3d models for the components and try to render it.
+
+Recording links:
+https://lapse.hackclub.com/timelapse/1ukHRfGwRLbr (53 mins)
+https://lapse.hackclub.com/timelapse/UjBjIMcLNt3x (47 mins)
+https://lapse.hackclub.com/timelapse/hDr_HyoGHTTv (25 mins)
+
+**Total time spent: 2:05 hours**
+
+# September 2: 
