@@ -176,3 +176,12 @@ https://lapse.hackclub.com/timelapse/hDr_HyoGHTTv (25 mins)
 **Total time spent: 2:05 hours**
 
 # September 2: 
+This devlog I worked on several things. Yesterday I got a start on finding the 3d models for the components so that the render actually looked good. I don't have alot to say other than for one of the components(The battery connector), the breakout board was attached in the CAD model. ![PictureOfBatteryPlugHolder](DevboardArt/Component3dmodels/adafruit-jst-ph-2-pin-smt-right-angle-breakout-board-1.snapshot.1/JST-PH%202-Pin%20Breakout%20Board.JPG).
+Here it is. Next I worked on trying to make the actual render. This was harder than I thought because I originally thought. This is mostly because I was trying to figure out how to make it look good. Most of the previous ones did not look good to me at all.  ![uglyrender1](JournalPictures/uglyrender1.png) ![uglyrender2](JournalPictures/uglyrender2.png) ![uglyrender3](JournalPictures/uglyrender3.png). Here are some of the failed ones. As you can probably tell. I decided to go with two different rendering styles, one of the styles would be the exploded view and the straight down view. ![Exploded](DevboardArt/renders/ExplodedView.png) and  ![Straight](DevboardArt/renders/Straight%20down%20test.png). I also decided to work on the poster. ![Poster](JournalPictures/poster.png). This is what it looks like right now. I might deviate from my usual use of pastel colors though. I am not super sure about what I will do next. I do really need to work on the software platform though. I am not super sure if I can get that done in time before forge ends. I will realistically use AI to accelerate this process.
+
+Recording links:
+https://lapse.hackclub.com/timelapse/PKU9Cg7YqvJJ
+https://lapse.hackclub.com/timelapse/CI43GkyVtSil
+They are both 1:12-11 lol
+
+**Total Time spent: 2:23 hours**

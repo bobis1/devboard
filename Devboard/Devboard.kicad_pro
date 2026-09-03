@@ -521,7 +521,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../DevboardArt/silkscreen.svg",
       "specctra_dsn": "",
       "vrml": ""
     },
