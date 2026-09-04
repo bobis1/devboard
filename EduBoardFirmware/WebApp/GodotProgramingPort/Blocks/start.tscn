@@ -1,21 +1,13 @@
-[gd_scene format=3 uid="uid://dal6mswhqbsod"]
+[gd_scene load_steps=2 format=3 uid="uid://dal6mswhqbsod"]
 
-[ext_resource type="Script" uid="uid://bpp0eir748hut" path="res://Blocks/blockSnap.gd" id="2_5mvoh"]
-[ext_resource type="Texture2D" uid="uid://b6rfr7slsdyp3" path="res://Blocks/BlockImages/Start.png" id="2_uwecf"]
+[ext_resource type="Script" path="res://Blocks/BlockBase.gd" id="1_base"]
 
-[node name="TextureRect" type="TextureRect" unique_id=1045938698]
-custom_minimum_size = Vector2(128, 64)
-offset_left = -1.0
-offset_top = 3.0
-offset_right = 668.0
-offset_bottom = 207.0
-texture = ExtResource("2_uwecf")
-expand_mode = 1
-stretch_mode = 5
-script = ExtResource("2_5mvoh")
-
-[node name="SnapZoneInner" type="Node2D" parent="." unique_id=783987164 groups=["InnerSnapZone"]]
-position = Vector2(133, 148)
-
-[node name="SnapZoneOuter" type="Node2D" parent="." unique_id=606957910 groups=["OuterSnapZone"]]
-position = Vector2(136, 3)
+[node name="Start" type="Control"]
+offset_right = 200.0
+offset_bottom = 52.0
+script = ExtResource("1_base")
+block_color = Color(0.96, 0.65, 0.14, 1)
+block_text = "Start"
+is_hat = true
+is_template = true
+block_type = "start"

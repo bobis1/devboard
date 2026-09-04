@@ -1,36 +1,28 @@
 extends VBoxContainer
+
 var isExpanded: bool = false
-
-# TODO: Get Texturerect from BlockFileInstances, 
-# then when it is dragged out se a proper instance
-
-var mouse_button_down = false
-	
-func _unhandled_input(event):
-	if event is InputEventMouseButton: 
-		if event.is_pressed():
-			mouse_button_down = true
-		else:
-			mouse_button_down = false
-	pass
+var templates: Array = []
 
 
 func _ready() -> void:
-	for i in Globals.BlockArray.size():
-		var BlockFile = load(Globals.BlockArray[i])
-		var BlockFileInstance = BlockFile.instantiate() #Delete the instance later
-		add_child(BlockFileInstance)
-		pass
-	pass
+	clear_children()
+	for path in Globals.BlockArray:
+		var block: PackedScene = load(path)
+		if block == null:
+			continue
+		var instance = block.instantiate()
+		instance.is_template = true
+		instance.mouse_filter = Control.MOUSE_FILTER_STOP
+		instance.set_meta("template", true)
+		templates.append(instance)
+		add_child(instance)
 
-func _process(delta: float) -> void:
-	pass
+
+func clear_children() -> void:
+	for child in get_children():
+		child.queue_free()
 
 
 func _on_expand_pressed() -> void:
-	if isExpanded:
-		visible = true
-	else:
-		visible = true
 	isExpanded = !isExpanded
-	pass
+	visible = true

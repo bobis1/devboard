@@ -1,11 +1,11 @@
-[gd_scene format=3 uid="uid://bk3els8ck5lwi"]
+[gd_scene load_steps=3 format=3 uid="uid://bk3els8ck5lwi"]
 
 [ext_resource type="Script" uid="uid://bkfa8qmuk36lv" path="res://toolbox.gd" id="2_1bvp3"]
 [ext_resource type="Script" uid="uid://430utusfyt4y" path="res://workspace.gd" id="3_h2yge"]
-[ext_resource type="Texture2D" uid="uid://b6rfr7slsdyp3" path="res://Blocks/BlockImages/Start.png" id="3_lquwl"]
-[ext_resource type="Texture2D" uid="uid://b2i15on3vaq3e" path="res://Blocks/BlockImages/MoveBlock.png" id="4_7mycd"]
+[ext_resource type="Script" path="res://workspaceManager.gd" id="4_wsman"]
 
 [node name="Node2D" type="Node2D" unique_id=1000945125]
+script = ExtResource("4_wsman")
 
 [node name="Sprite" type="Node" parent="." unique_id=1117533938]
 
@@ -30,26 +30,13 @@ layout_mode = 2
 size_flags_horizontal = 0
 script = ExtResource("2_1bvp3")
 
-[node name="StartBlock" type="TextureRect" parent="VBoxContainer" unique_id=1056430474]
-layout_mode = 2
-texture = ExtResource("3_lquwl")
-
 [node name="Workspace" type="ColorRect" parent="." unique_id=1332926174]
-z_index = -3
-offset_left = 161.0
-offset_top = 19.999998
-offset_right = 201.00002
-offset_bottom = 60.0
-scale = Vector2(25, 25)
+offset_left = 130.0
+offset_top = 46.0
+offset_right = 1300.0
+offset_bottom = 900.0
 color = Color(0.012645884, 0.012645883, 0.012645883, 1)
 script = ExtResource("3_h2yge")
-
-[node name="MoveBlock" type="TextureRect" parent="." unique_id=1435286783]
-offset_left = -2.0
-offset_top = 279.0
-offset_right = 326.0
-offset_bottom = 279.0
-texture = ExtResource("4_7mycd")
 
 [connection signal="pressed" from="VBoxContainer/SpriteEditor" to="." method="_on_sprite_editor_pressed"]
 [connection signal="pressed" from="VBoxContainer/Expand" to="VBoxContainer/Toolbox" method="_on_expand_pressed"]

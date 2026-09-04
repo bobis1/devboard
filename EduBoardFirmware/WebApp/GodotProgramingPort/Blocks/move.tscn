@@ -1,37 +1,50 @@
-[gd_scene format=3 uid="uid://dxmiqhnn5jv61"]
+[gd_scene load_steps=2 format=3 uid="uid://dxmiqhnn5jv61"]
 
-[ext_resource type="Script" uid="uid://bpp0eir748hut" path="res://Blocks/blockSnap.gd" id="2_fkbnc"]
-[ext_resource type="Texture2D" uid="uid://b2i15on3vaq3e" path="res://Blocks/BlockImages/MoveBlock.png" id="2_rnbvc"]
+[ext_resource type="Script" path="res://Blocks/BlockBase.gd" id="1_base"]
 
-[node name="TextureRect" type="TextureRect" unique_id=575496394]
-offset_right = 669.0
-offset_bottom = 204.0
-texture = ExtResource("2_rnbvc")
-script = ExtResource("2_fkbnc")
+[node name="Move" type="Control"]
+offset_right = 200.0
+offset_bottom = 52.0
+script = ExtResource("1_base")
+block_color = Color(0.2, 0.6, 0.96, 1)
+block_text = "Move"
+block_type = "move"
 
-[node name="Sprite" type="LineEdit" parent="." unique_id=1952460898]
-layout_mode = 0
-offset_left = 272.0
-offset_top = 95.0
-offset_right = 340.5
-offset_bottom = 126.0
+[node name="SpriteLabel" type="Label" parent="."]
+offset_left = 92.0
+offset_top = 6.0
+offset_right = 120.0
+offset_bottom = 24.0
+text = "Sprite"
 
-[node name="X" type="LineEdit" parent="." unique_id=401481081]
-layout_mode = 0
-offset_left = 407.0
-offset_top = 95.0
-offset_right = 475.5
-offset_bottom = 126.0
+[node name="Sprite" type="LineEdit" parent="."]
+offset_left = 60.0
+offset_top = 24.0
+offset_right = 100.0
+offset_bottom = 46.0
 
-[node name="Y" type="LineEdit" parent="." unique_id=1826738888]
-layout_mode = 0
-offset_left = 540.0
-offset_top = 94.0
-offset_right = 608.5
-offset_bottom = 125.0
+[node name="XLabel" type="Label" parent="."]
+offset_left = 112.0
+offset_top = 6.0
+offset_right = 126.0
+offset_bottom = 24.0
+text = "X"
 
-[node name="SnapZoneInner" type="Node2D" parent="." unique_id=783987164 groups=["InnerSnapZone"]]
-position = Vector2(133, 148)
+[node name="X" type="LineEdit" parent="."]
+offset_left = 108.0
+offset_top = 24.0
+offset_right = 144.0
+offset_bottom = 46.0
 
-[node name="SnapZoneOuter" type="Node2D" parent="." unique_id=606957910 groups=["OuterSnapZone"]]
-position = Vector2(136, 3)
+[node name="YLabel" type="Label" parent="."]
+offset_left = 150.0
+offset_top = 6.0
+offset_right = 164.0
+offset_bottom = 24.0
+text = "Y"
+
+[node name="Y" type="LineEdit" parent="."]
+offset_left = 146.0
+offset_top = 24.0
+offset_right = 182.0
+offset_bottom = 46.0

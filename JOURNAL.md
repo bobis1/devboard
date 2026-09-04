@@ -187,4 +187,12 @@ They are both 1:12-11 lol
 **Total Time spent: 2:23 hours**
 
 # September 3
-prejournal: I havent got off school yet but I am dtsrting to decide what I need to do. I will be truijg to 
+
+prejournal: I havent got off school yet but I am starting to decide what I need to do. I will be trying to finish up the renders, wrap up the BOM.
+Journal: I did not get alot done today. I had a bunch of school work. I mostly worked on the software platform. I also worked a tiny bit on the render. I think that it is basically complete now. The software platform on godot is really messed up imo. I might scrap the entire thing and just restart it. In additon, I was doing the screen share thing(It helps me stay focused for some reason) and I found out that Lookout blacks that part out because technically it is slack I think. I am not completely sure though. I was pretty much just messing around with the settings in godot like the viewport size. With this it should be slightly more reasonable. At this point I am not enjoying this project but I really want to finish this. Most of the time was tracked with hackatime today. ![badblocks](JournalPictures/badblocks.png) This is what it looks like rn :(
+
+Recording Link:
+https://lapse.hackclub.com/timelapse/V_etvXt_qXq-
+The rest is hackatimed.
+
+**Total Time spent: 1:15**
