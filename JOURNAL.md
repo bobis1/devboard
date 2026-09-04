@@ -185,3 +185,6 @@ https://lapse.hackclub.com/timelapse/CI43GkyVtSil
 They are both 1:12-11 lol
 
 **Total Time spent: 2:23 hours**
+
+# September 3
+prejournal: I havent got off school yet but I am dtsrting to decide what I need to do. I will be truijg to 
