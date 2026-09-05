@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dal6mswhqbsod"]
+[gd_scene format=3 uid="uid://dal6mswhqbsod"]
 
-[ext_resource type="Script" path="res://Blocks/BlockBase.gd" id="1_base"]
+[ext_resource type="Script" uid="uid://02vumgn1lse2" path="res://Blocks/BlockBase.gd" id="1_base"]
+[ext_resource type="PackedScene" uid="uid://cvkyqmpgt34vl" path="res://Blocks/Trail.tscn" id="2_5mvoh"]
 
-[node name="Start" type="Control"]
+[node name="Start" type="Control" unique_id=1146346808]
+layout_mode = 3
+anchors_preset = 0
 offset_right = 200.0
 offset_bottom = 52.0
 script = ExtResource("1_base")
@@ -11,3 +14,13 @@ block_text = "Start"
 is_hat = true
 is_template = true
 block_type = "start"
+trailScene = ExtResource("2_5mvoh")
+
+[node name="TrailSpawn" type="Button" parent="." unique_id=1391942980]
+layout_mode = 0
+offset_left = 95.0
+offset_top = 54.0
+offset_right = 103.0
+offset_bottom = 62.0
+
+[connection signal="pressed" from="TrailSpawn" to="." method="_on_trail_spawn_pressed"]

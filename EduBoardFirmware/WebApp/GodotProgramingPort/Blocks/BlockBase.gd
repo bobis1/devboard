@@ -6,6 +6,7 @@ extends Control
 @export var is_hat: bool = false
 @export var is_template: bool = false
 @export var block_type: String = "block"
+@export var trailScene: PackedScene
 
 const BLOCK_WIDTH := 200.0
 const BLOCK_HEIGHT := 52.0
@@ -36,3 +37,11 @@ func _get_drag_data(_at_position: Vector2):
 	preview.size = Vector2(BLOCK_WIDTH, BLOCK_HEIGHT)
 	set_drag_preview(preview)
 	return { "type": block_type, "scene": scene_file_path }
+
+
+func _on_trail_spawn_pressed() -> void:
+	var trailInstance = trailScene.instantiate()
+	trailInstance.global_position = global_position
+	trailInstance.set_meta("ParentNode", self)
+	print("TrailInstance Made")
+	pass

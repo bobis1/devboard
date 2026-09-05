@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cvkyqmpgt34vl"]
+
+[ext_resource type="Script" uid="uid://dvl7tjeiylfef" path="res://Blocks/trail.gd" id="1_7ugrr"]
+
+[node name="Trail" type="ColorRect" unique_id=666276596]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.36659476, 0.36659455, 0.36659458, 1)
+script = ExtResource("1_7ugrr")
+metadata/ParentNode = NodePath("")
+metadata/RecevingNode = NodePath("")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1166506870]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 45.0
+offset_bottom = 45.0
+scale = Vector2(0.75, 0.75)
+color = Color(0.57700837, 0.5770084, 0.57700837, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1354914384]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 50.0
+offset_bottom = 50.0
+scale = Vector2(0.5, 0.5)
+
+[node name="Line2D" type="Line2D" parent="." unique_id=1208318296]
+position = Vector2(20, 20)

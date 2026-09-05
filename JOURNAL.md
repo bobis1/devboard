@@ -196,3 +196,9 @@ https://lapse.hackclub.com/timelapse/V_etvXt_qXq-
 The rest is hackatimed.
 
 **Total Time spent: 1:15**
+
+# September 4
+
+I was working on replacing the block system. I was mostly planning on using a system like cables to connect everything, ![CableHead](JournalPictures/trailhead.png). This is what the trailhead looks like right now. I struggled unreasonably with thsi because I was trying to figure out why the cable was not appearing. I think that I have something wrong with the way I am trying to instantiate the trailhead. I will also check on the line2d that is connecting the trailhead to the actual block.
+(Time tracked with hackatime.)
+**Total Time spent 1:02**

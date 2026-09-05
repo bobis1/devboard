@@ -1,50 +1,69 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxmiqhnn5jv61"]
+[gd_scene format=3 uid="uid://dxmiqhnn5jv61"]
 
-[ext_resource type="Script" path="res://Blocks/BlockBase.gd" id="1_base"]
+[ext_resource type="Script" uid="uid://02vumgn1lse2" path="res://Blocks/BlockBase.gd" id="1_base"]
+[ext_resource type="PackedScene" uid="uid://cvkyqmpgt34vl" path="res://Blocks/Trail.tscn" id="2_rnbvc"]
 
-[node name="Move" type="Control"]
+[node name="Move" type="Control" unique_id=87989504]
+layout_mode = 3
+anchors_preset = 0
 offset_right = 200.0
 offset_bottom = 52.0
 script = ExtResource("1_base")
 block_color = Color(0.2, 0.6, 0.96, 1)
 block_text = "Move"
 block_type = "move"
+trailScene = ExtResource("2_rnbvc")
 
-[node name="SpriteLabel" type="Label" parent="."]
+[node name="SpriteLabel" type="Label" parent="." unique_id=961837673]
+layout_mode = 0
 offset_left = 92.0
 offset_top = 6.0
 offset_right = 120.0
 offset_bottom = 24.0
 text = "Sprite"
 
-[node name="Sprite" type="LineEdit" parent="."]
+[node name="Sprite" type="LineEdit" parent="." unique_id=1320492120]
+layout_mode = 0
 offset_left = 60.0
 offset_top = 24.0
 offset_right = 100.0
 offset_bottom = 46.0
 
-[node name="XLabel" type="Label" parent="."]
+[node name="XLabel" type="Label" parent="." unique_id=624780951]
+layout_mode = 0
 offset_left = 112.0
 offset_top = 6.0
 offset_right = 126.0
 offset_bottom = 24.0
 text = "X"
 
-[node name="X" type="LineEdit" parent="."]
+[node name="X" type="LineEdit" parent="." unique_id=1373014331]
+layout_mode = 0
 offset_left = 108.0
 offset_top = 24.0
 offset_right = 144.0
 offset_bottom = 46.0
 
-[node name="YLabel" type="Label" parent="."]
+[node name="YLabel" type="Label" parent="." unique_id=1985285612]
+layout_mode = 0
 offset_left = 150.0
 offset_top = 6.0
 offset_right = 164.0
 offset_bottom = 24.0
 text = "Y"
 
-[node name="Y" type="LineEdit" parent="."]
+[node name="Y" type="LineEdit" parent="." unique_id=1222331462]
+layout_mode = 0
 offset_left = 146.0
 offset_top = 24.0
 offset_right = 182.0
 offset_bottom = 46.0
+
+[node name="TrailSpawn" type="Button" parent="." unique_id=1923356002]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 55.0
+offset_right = 133.0
+offset_bottom = 63.0
+
+[connection signal="pressed" from="TrailSpawn" to="." method="_on_trail_spawn_pressed"]

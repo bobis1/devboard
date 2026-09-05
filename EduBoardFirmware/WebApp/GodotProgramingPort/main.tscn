@@ -1,8 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bk3els8ck5lwi"]
+[gd_scene format=3 uid="uid://bk3els8ck5lwi"]
 
 [ext_resource type="Script" uid="uid://bkfa8qmuk36lv" path="res://toolbox.gd" id="2_1bvp3"]
 [ext_resource type="Script" uid="uid://430utusfyt4y" path="res://workspace.gd" id="3_h2yge"]
-[ext_resource type="Script" path="res://workspaceManager.gd" id="4_wsman"]
+[ext_resource type="Script" uid="uid://vgqkn13vijoc" path="res://workspaceManager.gd" id="4_wsman"]
 
 [node name="Node2D" type="Node2D" unique_id=1000945125]
 script = ExtResource("4_wsman")
