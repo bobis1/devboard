@@ -203,3 +203,7 @@ I was working on replacing the block system. I was mostly planning on using a sy
 (Time tracked with hackatime.)
 
 **Total Time spent: 1:02**
+
+# September 6
+
+Today, I am going to pivot from doing the godot stuff to doing the firmware in pio. The first thing I want to do is that I want to emulate a system that I made for my godot fantasy console. It was simplier since it does not need to be colored as the display I am using is black and white. I also need to basically provide basic helper functions to do certain operations. This is more for convenience when I get to the godot part of it. For now this will probably be relegated to doing basic stuff like editting specific pixels and drawing specific images at a certain position. 
