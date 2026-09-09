@@ -1,0 +1,49 @@
+### Footprint positions - created on 2026-09-08T21:55:00 ###
+### Printed by KiCad version 10.0.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                          Package                                   PosX       PosY       Rot  Side
+R1        5.1KΩ                        R_0402_1005Metric                     156.8325   -48.6700    0.0000  bottom
+R2        5.1KΩ                        R_0402_1005Metric                     153.8800   -48.6200  180.0000  bottom
+C1        0.1uf                        C_0201_0603Metric                     155.4100   -77.4900  -90.0000  top
+C2        0.1uf                        C_0201_0603Metric                     149.8725   -68.7700  180.0000  top
+C3        0.1uf                        C_0201_0603Metric                     149.1075   -72.5000  180.0000  top
+C4        0.1uf                        C_0201_0603Metric                     157.8400   -66.4925   90.0000  top
+C5        0.1uf                        C_0201_0603Metric                     160.3700   -72.2700    0.0000  top
+C6        0.1uf                        C_0201_0603Metric                     155.7900   -64.4175   90.0000  top
+C7        0.1uf                        C_0201_0603Metric                     160.3750   -67.7600    0.0000  top
+C8        0.1uf                        C_0201_0603Metric                     160.3825   -68.5800    0.0000  top
+C9        1uf                          C_0201_0603Metric                     159.7375   -66.7000    0.0000  top
+C10       0.1uf                        C_0201_0603Metric                     156.2400   -77.5000  -90.0000  top
+C11       0.1uf                        C_0201_0603Metric                     157.2300   -64.5400   90.0000  top
+C12       1uf                          C_0201_0603Metric                     154.0300   -64.3300   90.0000  top
+C13       10uf                         C_0201_0603Metric                     161.0900   -56.5225  -90.0000  top
+C14       10uf                         C_0201_0603Metric                     143.3800   -54.8400    0.0000  top
+C15       33uf                         C_0201_0603Metric                     152.7500   -79.1075   90.0000  top
+C16       33uf                         C_0201_0603Metric                     145.6675   -79.7900    0.0000  top
+C17       0.1uf                        C_0201_0603Metric                     154.9400   -64.3800   90.0000  top
+C18       10μf                         C_0201_0603Metric                     168.2275   -53.2100    0.0000  top
+C19       0.1μf                        C_0201_0603Metric                     174.7275   -54.3900    0.0000  top
+C20       10μf                         C_0201_0603Metric                     168.5675   -51.0500    0.0000  top
+C21       10μf                         C_0201_0603Metric                     169.9375   -49.5100    0.0000  top
+J1        USB_C_Receptacle_USB2.0_14P  USB_C_Receptacle_HRO_TYPE-C-31-M-12   155.6200   -49.4100  180.0000  top
+J2        Conn_01x20                   PinHeader_1x20_P1.00mm_Vertical       139.2900   -62.8200    0.0000  top
+J3        Conn_01x20                   PinHeader_1x20_P1.00mm_Vertical       175.3750   -63.1650    0.0000  top
+J4        Conn_01x03                   PinHeader_1x03_P1.00mm_Vertical       158.1400   -77.6400   90.0000  top
+L1        2.2μH                        L_6.3x6.3_H3                          172.1500   -58.2000    0.0000  top
+R3        27Ω                          R_0402_1005Metric                     156.1700   -56.6800   90.0000  top
+R4        27Ω                          R_0402_1005Metric                     155.0000   -56.6200   90.0000  top
+R5        1K                           R_0402_1005Metric                     145.4625   -78.8300  180.0000  top
+R6        1KΩ                          R_0402_1005Metric                     145.9925   -60.8500    0.0000  top
+R7        10KΩ                         R_0402_1005Metric                     142.9925   -61.3300    0.0000  top
+R8        100Ω                         R_0201_0603Metric                     169.6850   -54.3200    0.0000  top
+SW1       SW_Push                      SW_SPST_TS-1088-xR020                 144.4200   -58.4500    0.0000  top
+SW2       SW_Push                      SW_SPST_TS-1088-xR020                 151.4500   -58.3800    0.0000  top
+U1        RP2040                       QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm   155.2300   -71.6700    0.0000  top
+U2        MCP1700x-120xxMB             SOT-89-3                              147.6500   -52.2000    0.0000  top
+U3        W25Q128JVS                   SOIC-8_5.3x5.3mm_P1.27mm              147.4100   -64.5400    0.0000  top
+U4        ER_OLEDM0.91_1x-I2C          ER_OLEDM0.91_1x-I2C                   139.5900   -94.5700   90.0000  top
+U5        TPS63000                     Texas_DRC0010J_ThermalVias            172.4600   -52.0300    0.0000  top
+XT1       ~                            JST-PH-2                              163.2400   -62.3550    0.0000  top
+Y2        Crystal_GND24                Crystal_SMD_3225-4Pin_3.2x2.5mm       149.3900   -77.8400  180.0000  top
+## End

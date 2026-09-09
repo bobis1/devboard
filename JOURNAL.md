@@ -209,3 +209,13 @@ I was working on replacing the block system. I was mostly planning on using a sy
 Today, I am going to pivot from doing the godot stuff to doing the firmware in pio. The first thing I want to do is that I want to emulate a system that I made for my godot fantasy console. It was simplier since it does not need to be colored as the display I am using is black and white. I also need to basically provide basic helper functions to do certain operations. This is more for convenience when I get to the godot part of it. For now this will probably be relegated to doing basic stuff like editting specific pixels and drawing specific images at a certain position. I think that the scope creeped up on me too much and now I will be trying to finish the actual firmware of the board. At the moment I need to focus on th3 firmware. Honestly alot of the time I spent today was either spent on ghe journal or screwing around trying to implement the very basics of it all donthsy it would be easier to do stuff later. If it wasn't clear I am not really experienced in arduino c++ so it took me longer. I am go8ng to be hoenst I think that this part will for sure be a struggle.
 
 **Total Time spent: 1:18**
+
+# September 7
+
+Today, I am going to continue working on the firmware. I spent alot of time just trying to figure out how to turn on syntax highlighting. Honestly probably too much time doing that. I spent lots of time just digging through the settings to try to find the  There is not much left to do at this point to be honest. I have made all of the helper functions that I can think of immediately. To be honest. there is nothing more for me to do. At this point I am just trying to organize the repo and get the actual final prices down. There are a lot of components that do not have inventory in jlcpcb it seems. The problem is that I will have to do alot of it myself. I don't have anything I can SMD soder with. I intend this to be the last for a while though. After, looking at the prices I think that it would literally be cheaper to get some cheap hotplate off of aliexpress and some soder paste and buy the components indivisually. ![PRICE](JournalPictures/PRICE.png) ![PRICE2](JournalPictures/PRICE2.png) Here are some of the prices.
+
+Recording links
+https://lapse.hackclub.com/timelapse/o3eyBZ5dNFtC
+And hackatime.
+
+**Total Time Spent: 1:19**
