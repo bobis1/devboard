@@ -14,7 +14,7 @@ There is not much to say. I am mostly just setting things up until I can come up
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/DGkcKer8LFst/timelapse-DGkcKer8LFst.mp4
 
-**Total time spent: 56 minutes**
+**Total time spent: 00:56 minutes**
 
 # May 4: Chose a direction, added an OLED display and button
 
@@ -82,7 +82,7 @@ Recording links:
 - https://public.lapse-hackclub.link/timelapses/U8BlEgYKHTOK/timelapse-U8BlEgYKHTOK.mp4
 - https://public.lapse-hackclub.link/timelapses/r_VSW0o6QzoZ/timelapse-r_VSW0o6QzoZ.mp4
 
-**Total time spent: 37 minutes**
+**Total time spent: 00:37 minutes**
 
 # May 14: Redid the routing around the decoupling capacitors
 
@@ -95,7 +95,7 @@ Recording links:
 - https://public.lapse-hackclub.link/timelapses/Pfab0-hPdquu/timelapse-Pfab0-hPdquu.mp4
 - https://public.lapse-hackclub.link/timelapses/LPbBbGXVQzN0/timelapse-LPbBbGXVQzN0.mp4
 
-**Total time spent: 45 minutes**
+**Total time spent: 00:45 minutes**
 
 # May 18: Finished up the PCB
 
@@ -142,7 +142,7 @@ Right now, this is what they look like. In addition to creating the blocks thems
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/THLCydzMLRA7/timelapse-THLCydzMLRA7.mp4
 
-**Total time spent: 55 minutes**
+**Total time spent: 00:55 minutes**
 
 # May 28: Getting the UI set up
 
@@ -219,3 +219,12 @@ https://lapse.hackclub.com/timelapse/o3eyBZ5dNFtC
 And hackatime.
 
 **Total Time Spent: 1:19**
+
+# September 9
+For this devlog I was just working on finsihing up the BOM. I found out that getting a hotplate and some solder paste off of aliepxress is somehow cheaper than doing PCBA. Considering that my footprints are relatively large I think that I will be able to do it. I also worked on my readme. The prices are frankly absurd for PCBA. I think that this is sufficient for the design check. I will need to work abit more on the firmware. I think that there was too much scope creep about the godot part. I just don't feel like it is really worth doing it there are is another project I would rather do at this point. ![AHH moment](JournalPictures/AHHH.png) I nearly forgot that I added a way to flash the mcu. That was kinda startling.
+
+Recording links
+https://lapse.hackclub.com/timelapse/BIKCxWAkMjNI
+And hackatime
+
+**Total Time Spent: 1:07 hours**
