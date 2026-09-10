@@ -3,14 +3,20 @@ A devboard with an inbuilt screen and a software platform that should help begin
 
 I made this project because I wanted some experience working with devboards before I start something more complex. I also wanted to make something where a microcontroller was on a devboard already.
 
+### Pictures
+
 ![Render](DevboardArt/renders/Straight%20down%20test2.png)
 ![Render](DevboardArt/renders/ExplodedView2.png)
+Above are renders made in blender.
+![pcb](DevboardArt/renders/pcb.png)
+![schematic](DevboardArt/renders/schematic.png)
+
 
 ### Assembly
 The assembly of the devboard is relatively straight forward. The first thing you need to do is you need to get a hotplate and some soder paste to carefully soder on all the SMD components onto the pcb(This will be new to me as I have never done it before). Then you need to soder on the header pins onto the pcb by placing your sodering iron on the joint between the pcb and the pin and putting solder into that joint.
 
 ### Flashing
-The flashing of this works the same way as a normal raspberry pi pico.
+The flashing of this works the same way as a normal raspberry pi pico. You need to hold down SW_1 to start the flashing process.
 
 ### BOM
 This BOM is for non PCBA. 
