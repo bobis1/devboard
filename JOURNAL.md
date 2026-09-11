@@ -151,9 +151,9 @@ Today, I worked on trying to get the UI set up for the devboard. The main thing 
 This is what the first iteration looked like. In this one I simply forgot to make the workspace a part of a vbox. The second iteration is here
 ![Screenshot 2026-05-27 at 8.54.11 PM.png](JournalPictures/Journal122.png) Here is pretty much where I fixed it. This is what it looks like now.
 ![Screenshot 2026-05-27 at 9.49.08 PM.png](JournalPictures/Journal121.png)
-I think that I messed up the display for the first one somehow. I really don't know how much time this is going to take. These concepts lowk should feel easy to remember since the other Godot projects that I worked on. The next things that I need to do are I need to: ~~Fix the first constructor's display(something to do with the text box)~~. Fix the drag detection (should be pretty simple, tbh). In addition, I need to work on the snapping logic. The thing with it is that I just got the logic off of my tower plinko prototype thing. The main concern is that I don't think that everything translated properly.(Yea it doesn't work) I think that there is an issue with the way I reimplemented the code from towerplinko.
+I think that I messed up the display for the first one somehow. I really don't know how much time this is going to take. These concepts lowk should feel easy to remember since the other Godot projects that I worked on. The next things that I need to do are I need to: ~~Fix the first constructor's display(something to do with the text box)~~. Fix the drag detection (should be pretty simple, tbh). In addition, I need to work on the snapping logic. The thing with it is that I just got the logic off of my tower plinko prototype thing. The main concern is that I don't think that everything translated properly.(Yea it doesn't work) I think that there is an issue with the way I reimplemented the code from towerplinko. The time is an estimate, I believe it is at minimum 
 
-**Total time spent: 0.0**
+**Total time spent: 00:30 minutes**
 
 
 # August 22: Getting the drag and drop logic working.
