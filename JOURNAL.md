@@ -14,7 +14,7 @@ There is not much to say. I am mostly just setting things up until I can come up
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/DGkcKer8LFst/timelapse-DGkcKer8LFst.mp4
 
-**Total time spent: 00:56 minutes**
+**Total time spent: 0.933 hours**
 
 # May 4: Chose a direction, added an OLED display and button
 
@@ -25,7 +25,7 @@ I think that having the OLED screen on the outer reaches away from the pins is a
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/7_ZJfe8KnYUe/timelapse-7_ZJfe8KnYUe.mp4
 
-**Total time spent: 1:06 hours**
+**Total time spent: 1.1 hours**
 
 # May 5: Routed the flash memory and USB port
 
@@ -39,7 +39,7 @@ Recording links:
 - https://public.lapse-hackclub.link/timelapses/LOK1z_V-Vksl/timelapse-LOK1z_V-Vksl.mp4
 - https://public.lapse-hackclub.link/timelapses/FhLKLNGlcSYP/timelapse-FhLKLNGlcSYP.mp4
 
-**Total time spent: 1:09 hours**
+**Total time spent: 1.15 hours**
 
 # May 6: More routing and via struggles
 
@@ -50,7 +50,7 @@ As a bit of a side note, here is my progress. As you can see, the traces on the 
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/aq-a-650iFIS/timelapse-aq-a-650iFIS.mp4
 
-**Total time spent: 1:27 hours**
+**Total time spent: 1.45 hours**
 
 # May 7: Finished GPIO routing, added GND fill
 
@@ -68,7 +68,7 @@ It is probably hard to tell from the picture, but the trace connecting the 1v1s 
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/nqFdDxovM8Hh/timelapse-nqFdDxovM8Hh.mp4
 
-**Total time spent: 1:17 Hours**
+**Total time spent: 1.28 Hours**
 
 # May 13: Wrapped up more routing
 
@@ -82,7 +82,7 @@ Recording links:
 - https://public.lapse-hackclub.link/timelapses/U8BlEgYKHTOK/timelapse-U8BlEgYKHTOK.mp4
 - https://public.lapse-hackclub.link/timelapses/r_VSW0o6QzoZ/timelapse-r_VSW0o6QzoZ.mp4
 
-**Total time spent: 00:37 minutes**
+**Total time spent: 0.61 hours**
 
 # May 14: Redid the routing around the decoupling capacitors
 
@@ -95,7 +95,7 @@ Recording links:
 - https://public.lapse-hackclub.link/timelapses/Pfab0-hPdquu/timelapse-Pfab0-hPdquu.mp4
 - https://public.lapse-hackclub.link/timelapses/LPbBbGXVQzN0/timelapse-LPbBbGXVQzN0.mp4
 
-**Total time spent: 00:45 minutes**
+**Total time spent: 0.75 hours**
 
 # May 18: Finished up the PCB
 
@@ -106,7 +106,7 @@ This is what the almost finished PCB looks like. One thing that did trip me up d
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/dfIe_jsVfIqO/timelapse-dfIe_jsVfIqO.mp4
 
-**Total time spent: 1:03 hours**
+**Total time spent: 1.05 hours**
 
 # May 21: Silkscreen art and naming the board
 
@@ -119,7 +119,7 @@ Here is what the pcb looks like right now.
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/pjo93tp7kQIv/timelapse-pjo93tp7kQIv.mp4
 
-**Total time spent: 1:08 Hours**
+**Total time spent: 1.13 Hours**
 
 # May 22: Splash screen firmware and starting the software platform
 
@@ -131,7 +131,7 @@ This is what I am trying to set up right now.
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/RL9jTkZymbQ6/timelapse-RL9jTkZymbQ6.mp4
 
-**Total time spent: 1:08**
+**Total time spent: 1.13 hours**
 
 # May 27: Godot constructor blocks and sprite editor
 
@@ -142,7 +142,7 @@ Right now, this is what they look like. In addition to creating the blocks thems
 Recording links:
 - https://public.lapse-hackclub.link/timelapses/THLCydzMLRA7/timelapse-THLCydzMLRA7.mp4
 
-**Total time spent: 00:55 minutes**
+**Total time spent: 0.916 hours**
 
 # May 28: Getting the UI set up
 
@@ -151,16 +151,16 @@ Today, I worked on trying to get the UI set up for the devboard. The main thing 
 This is what the first iteration looked like. In this one I simply forgot to make the workspace a part of a vbox. The second iteration is here
 ![Screenshot 2026-05-27 at 8.54.11 PM.png](JournalPictures/Journal122.png) Here is pretty much where I fixed it. This is what it looks like now.
 ![Screenshot 2026-05-27 at 9.49.08 PM.png](JournalPictures/Journal121.png)
-I think that I messed up the display for the first one somehow. I really don't know how much time this is going to take. These concepts lowk should feel easy to remember since the other Godot projects that I worked on. The next things that I need to do are I need to: ~~Fix the first constructor's display(something to do with the text box)~~. Fix the drag detection (should be pretty simple, tbh). In addition, I need to work on the snapping logic. The thing with it is that I just got the logic off of my tower plinko prototype thing. The main concern is that I don't think that everything translated properly.(Yea it doesn't work) I think that there is an issue with the way I reimplemented the code from towerplinko. The time is an estimate, I believe it is at minimum 
+I think that I messed up the display for the first one somehow. I really don't know how much time this is going to take. These concepts lowk should feel easy to remember since the other Godot projects that I worked on. The next things that I need to do are I need to: ~~Fix the first constructor's display(something to do with the text box)~~. Fix the drag detection (should be pretty simple, tbh). In addition, I need to work on the snapping logic. The thing with it is that I just got the logic off of my tower plinko prototype thing. The main concern is that I don't think that everything translated properly.(Yea it doesn't work) I think that there is an issue with the way I reimplemented the code from towerplinko. The time is an estimate, I believe it is at minimum '
 
-**Total time spent: 00:30 minutes**
+**Total time spent: 0.5 hours**
 
 
 # August 22: Getting the drag and drop logic working.
 
 It has been a while, In this devlog I tried to reform the drag and drop logic. I found out that there is a way to do this with built in stuff from godot. Yea, this isn't the greatest. It took a embarringly long to get used to what I did earlier and to do this. The next thing I need to do is I need to make it so that the block dragging works like scratch. I also need to make the UI actually look good. ![JournalAug22](JournalPictures/JournalAug22.png). This is what it looks like right now. I also tried to use opencode to reformat the journal.md that was exported from fallout a long time ago.
 
-**Total time spent: 3:12**
+**Total time spent: 3.2 hours**
 
 # September 1: BOM and wrapping up the pcb
 
@@ -173,7 +173,7 @@ https://lapse.hackclub.com/timelapse/1ukHRfGwRLbr (53 mins)
 https://lapse.hackclub.com/timelapse/UjBjIMcLNt3x (47 mins)
 https://lapse.hackclub.com/timelapse/hDr_HyoGHTTv (25 mins)
 
-**Total time spent: 2:05 hours**
+**Total time spent: 2.08 hours**
 
 # September 2: 
 This devlog I worked on several things. Yesterday I got a start on finding the 3d models for the components so that the render actually looked good. I don't have alot to say other than for one of the components(The battery connector), the breakout board was attached in the CAD model. ![PictureOfBatteryPlugHolder](DevboardArt/Component3dmodels/adafruit-jst-ph-2-pin-smt-right-angle-breakout-board-1.snapshot.1/JST-PH%202-Pin%20Breakout%20Board.JPG).
@@ -184,7 +184,7 @@ https://lapse.hackclub.com/timelapse/PKU9Cg7YqvJJ
 https://lapse.hackclub.com/timelapse/CI43GkyVtSil
 They are both 1:12-11 lol
 
-**Total Time spent: 2:23 hours**
+**Total Time spent: 2.38 hours**
 
 # September 3
 
@@ -195,20 +195,20 @@ Recording Link:
 https://lapse.hackclub.com/timelapse/V_etvXt_qXq-
 The rest is hackatimed.
 
-**Total Time spent: 1:15**
+**Total Time spent: 1.25 hours**
 
 # September 4
 
 I was working on replacing the block system. I was mostly planning on using a system like cables to connect everything, ![CableHead](JournalPictures/trailhead.png). This is what the trailhead looks like right now. I struggled unreasonably with thsi because I was trying to figure out why the cable was not appearing. I think that I have something wrong with the way I am trying to instantiate the trailhead. I will also check on the line2d that is connecting the trailhead to the actual block.
 (Time tracked with hackatime.)
 
-**Total Time spent: 1:02**
+**Total Time spent: 1.03 hours**
 
 # September 6
 
 Today, I am going to pivot from doing the godot stuff to doing the firmware in pio. The first thing I want to do is that I want to emulate a system that I made for my godot fantasy console. It was simplier since it does not need to be colored as the display I am using is black and white. I also need to basically provide basic helper functions to do certain operations. This is more for convenience when I get to the godot part of it. For now this will probably be relegated to doing basic stuff like editting specific pixels and drawing specific images at a certain position. I think that the scope creeped up on me too much and now I will be trying to finish the actual firmware of the board. At the moment I need to focus on th3 firmware. Honestly alot of the time I spent today was either spent on ghe journal or screwing around trying to implement the very basics of it all donthsy it would be easier to do stuff later. If it wasn't clear I am not really experienced in arduino c++ so it took me longer. I am go8ng to be hoenst I think that this part will for sure be a struggle. ![Screenshot](JournalPictures/code.png)
 
-**Total Time spent: 1:18**
+**Total Time spent: 1.3 hours**
 
 # September 7
 
@@ -218,7 +218,7 @@ Recording links
 https://lapse.hackclub.com/timelapse/o3eyBZ5dNFtC
 And hackatime.
 
-**Total Time Spent: 1:19**
+**Total Time Spent: 1.31 hours**
 
 # September 9
 For this devlog I was just working on finsihing up the BOM. I found out that getting a hotplate and some solder paste off of aliepxress is somehow cheaper than doing PCBA. Considering that my footprints are relatively large I think that I will be able to do it. I also worked on my readme. The prices are frankly absurd for PCBA. I think that this is sufficient for the design check. I will need to work abit more on the firmware. I think that there was too much scope creep about the godot part. I just don't feel like it is really worth doing it there are is another project I would rather do at this point. ![AHH moment](JournalPictures/AHHH.png) I nearly forgot that I added a way to flash the mcu. That was kinda startling.
@@ -227,4 +227,4 @@ Recording links
 https://lapse.hackclub.com/timelapse/BIKCxWAkMjNI
 And hackatime
 
-**Total Time Spent: 1:07 hours**
+**Total Time Spent: 1.11 hours**
