@@ -228,3 +228,9 @@ https://lapse.hackclub.com/timelapse/BIKCxWAkMjNI
 And hackatime
 
 **Total Time Spent: 1.11 hours**
+
+# September 25
+
+I haven't got a lot of time to work on hack club projects but I did manage to chagne the size of the capacitors. I had alot of DRC errors from it. There is not alot to say besides that. It took abit with just finding other components that matched the symbol that I needed to use but that was pretty much it.
+
+**Total Time Spent: 0.716 hours**
