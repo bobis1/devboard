@@ -234,3 +234,7 @@ And hackatime
 I haven't got a lot of time to work on hack club projects but I did manage to chagne the size of the capacitors. I had alot of DRC errors from it. There is not alot to say besides that. It took abit with just finding other components that matched the symbol that I needed to use but that was pretty much it. ![Caps](JournalPictures/Sept26.png)
 
 **Total Time Spent: 0.716 hours**
+
+# October 4
+
+I really didn't do too much in the time of this journal. I just replaced the model in the current renders. ![explody render](DevboardArt/renders/ExplodedView3Cropped.png) and ![NormalRender](DevboardArt/renders/StraightDown3Cropped.png) are what it looks like right now. I also got rid of the random floating file. Hopefully I didn't miss anything else.

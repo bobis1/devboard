@@ -998,9 +998,9 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
-			(at 0 -1.16 0)
+			(at 1.3125 0.98 0)
 			(layer "F.SilkS")
-			(uuid "8824d3e4-7a45-4e93-8c30-2171b4ac64bb")
+			(uuid "37e35012-0fb4-471f-8fab-1dc5bfd21ef4")
 			(effects
 				(font
 					(size 1 1)
@@ -1011,7 +1011,7 @@
 		(property "Value" "33uf"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "4b6c8f34-ce2f-4ba5-bab9-d27033b132b6")
+			(uuid "8cb3f64f-67c8-4701-a40d-09a88189a56d")
 			(effects
 				(font
 					(size 1 1)
@@ -1023,7 +1023,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d471e798-9be0-44e9-9ffe-25728f3662c2")
+			(uuid "730d8a7c-a6bf-481a-b55d-3662ba579f06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1034,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95c21e1e-eaf6-45e5-bf78-d3b1be13891d")
+			(uuid "044e7e9b-36b9-46f1-9d9b-57abb639ba4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8576,7 @@
 		(property "Reference" "C11"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "acde27f2-d3a7-4d83-b336-65067b91c699")
+			(uuid "1feccf8e-75d2-4b46-97b8-fb45a7ad6527")
 			(effects
 				(font
 					(size 1 1)
@@ -8587,7 +8587,7 @@
 		(property "Value" "0.1uf"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "20c70bf4-1802-4056-b3c6-6cd11c123939")
+			(uuid "6e397180-ba50-436f-a717-e48e40f9f4a4")
 			(effects
 				(font
 					(size 1 1)
@@ -8599,7 +8599,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcd3402a-3091-4e4d-ab16-04dd6eae7582")
+			(uuid "08b9d58a-3310-42b7-89e2-ce43ff7db17c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8610,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f75e6b3-d32a-49e9-a157-580d3bd6c6df")
+			(uuid "e1372f72-cfef-48f7-81ef-038ea639e902")
 			(effects
 				(font
 					(size 1.27 1.27)
