@@ -238,3 +238,8 @@ I haven't got a lot of time to work on hack club projects but I did manage to ch
 # October 4
 
 I really didn't do too much in the time of this journal. I just replaced the model in the current renders. ![explody render](DevboardArt/renders/ExplodedView3Cropped.png) and ![NormalRender](DevboardArt/renders/StraightDown3Cropped.png) are what it looks like right now. I also got rid of the random floating file. Hopefully I didn't miss anything else.
+
+Recording links
+https://lapse.hackclub.com/timelapse/-3xxdbGD38pL
+
+**Total Time spent: 0.5 hours**
