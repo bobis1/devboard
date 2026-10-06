@@ -5,8 +5,8 @@ I made this project because I wanted some experience working with devboards befo
 
 ### Pictures
 
-![Render](DevboardArt/renders/StraightDown3Cropped.png.png)
-![Render](DevboardArt/renders/ExplodedView3Cropped.png2.png)
+![Render](DevboardArt/renders/StraightDown3Cropped.png)
+![Render](DevboardArt/renders/ExplodedView3Cropped.png)
 Above are renders made in blender.
 ![pcb](DevboardArt/renders/pcb.png)
 ![schematic](DevboardArt/renders/schematic.png)
